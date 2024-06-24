@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BPSZvJyOrerxjcoFBpfSLec1V4I4b6yMKyTEYvPMlrTCILBmo3HBXlnsnWoGr6qoQIH8qGX7o32BFnXzjJFh3A==",
+  "dgSpecHash": "D6+Qwl+vynLEG6VxmFPc+3q3Zz0l/5Lvk7qs146HJNHK9hWaqo/h2iXXYrswNFckJ6hBzWyYvojWrqxLFvzdjg==",
   "success": true,
-  "projectFilePath": "D:\\Workspace\\NCKH\\DocumentSharing\\DocumentSharing\\DocumentSharing.csproj",
+  "projectFilePath": "D:\\Workspace\\NCKH\\NCKH\\DocumentSharing\\DocumentSharing\\DocumentSharing.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MSI PC\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\MSI PC\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
