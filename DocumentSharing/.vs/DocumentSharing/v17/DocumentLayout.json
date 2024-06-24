@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Workspace\\NCKH\\DocumentSharing\\",
+  "WorkspaceRootPath": "D:\\Workspace\\NCKH\\NCKH\\DocumentSharing\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4E6D3DAF-7805-46C4-8799-98C9E6CD1577}|DocumentSharing\\DocumentSharing.csproj|d:\\workspace\\nckh\\documentsharing\\documentsharing\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E6D3DAF-7805-46C4-8799-98C9E6CD1577}|DocumentSharing\\DocumentSharing.csproj|solutionrelative:documentsharing\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4E6D3DAF-7805-46C4-8799-98C9E6CD1577}|DocumentSharing\\DocumentSharing.csproj|d:\\workspace\\nckh\\nckh\\documentsharing\\documentsharing\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E6D3DAF-7805-46C4-8799-98C9E6CD1577}|DocumentSharing\\DocumentSharing.csproj|solutionrelative:documentsharing\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\Workspace\\NCKH\\DocumentSharing\\DocumentSharing\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "DocumentSharing\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\Workspace\\NCKH\\DocumentSharing\\DocumentSharing\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "DocumentSharing\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Title": "PostController.cs",
+              "DocumentMoniker": "D:\\Workspace\\NCKH\\NCKH\\DocumentSharing\\DocumentSharing\\Controllers\\PostController.cs",
+              "RelativeDocumentMoniker": "DocumentSharing\\Controllers\\PostController.cs",
+              "ToolTip": "D:\\Workspace\\NCKH\\NCKH\\DocumentSharing\\DocumentSharing\\Controllers\\PostController.cs",
+              "RelativeToolTip": "DocumentSharing\\Controllers\\PostController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T13:49:31.686Z",
+              "WhenOpened": "2024-06-24T12:39:41.51Z",
               "EditorCaption": ""
             }
           ]

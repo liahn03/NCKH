@@ -142,7 +142,7 @@ public partial class DocumentSharingContext : DbContext {
 
             entity.ToTable("Document");
 
-            entity.Property(e => e.DocId).HasMaxLength(10);
+            entity.Property(e => e.DocId).HasMaxLength(35);
             entity.Property(e => e.DocCategory).HasMaxLength(30);
             entity.Property(e => e.DocName).HasMaxLength(200);
             entity.Property(e => e.DocUrl).HasMaxLength(300);
@@ -198,7 +198,7 @@ public partial class DocumentSharingContext : DbContext {
 
             entity.HasMany(d => d.Posts).WithMany(p => p.Tags)
                 .UsingEntity<Dictionary<string, object>>(
-                    "PostTag",
+                    "PostTags",
                     r => r.HasOne<Post>().WithMany()
                         .HasForeignKey("PostId")
                         .OnDelete(DeleteBehavior.ClientSetNull)

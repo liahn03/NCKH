@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Workspace\\NCKH\\DocumentSharing\\DocumentSharing\\DocumentSharing.csproj": {}
+    "D:\\Workspace\\NCKH\\NCKH\\DocumentSharing\\DocumentSharing\\DocumentSharing.csproj": {}
   },
   "projects": {
-    "D:\\Workspace\\NCKH\\DocumentSharing\\DocumentSharing\\DocumentSharing.csproj": {
+    "D:\\Workspace\\NCKH\\NCKH\\DocumentSharing\\DocumentSharing\\DocumentSharing.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Workspace\\NCKH\\DocumentSharing\\DocumentSharing\\DocumentSharing.csproj",
+        "projectUniqueName": "D:\\Workspace\\NCKH\\NCKH\\DocumentSharing\\DocumentSharing\\DocumentSharing.csproj",
         "projectName": "DocumentSharing",
-        "projectPath": "D:\\Workspace\\NCKH\\DocumentSharing\\DocumentSharing\\DocumentSharing.csproj",
+        "projectPath": "D:\\Workspace\\NCKH\\NCKH\\DocumentSharing\\DocumentSharing\\DocumentSharing.csproj",
         "packagesPath": "C:\\Users\\MSI PC\\.nuget\\packages\\",
-        "outputPath": "D:\\Workspace\\NCKH\\DocumentSharing\\DocumentSharing\\obj\\",
+        "outputPath": "D:\\Workspace\\NCKH\\NCKH\\DocumentSharing\\DocumentSharing\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MSI PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
