@@ -1,4 +1,7 @@
-﻿@{
+﻿@using DocumentSharing.Models;
+@model List<Document>;
+
+@{
     ViewData["Title"] = "Index";
 }
 
@@ -8,75 +11,28 @@
     <table class="table table-hover table-responsive">
         <thead class="thead-dark table-primary">
             <tr>
-                <th>#</th>
-                <th>First Name</th>
-                <th>Last Name</th>
-                <th>Username</th>
+                <th>Mã tài liệu</th>
+                <th>Tên tài liệu</th>
+                <th>Loại tài liệu</th>
+                <th>Môn học</th>
+                <th>Người đăng</th>
+                <th>Trạng thái</th>
+                <th>Link</th>
             </tr>
         </thead>
         <tbody>
-            <tr>
-                <th scope="row">1</th>
-                <td>John</td>
-                <td>Doe</td>
-                <td>johndoe</td>
-            </tr>
-            <tr>
-                <th scope="row">2</th>
-                <td>Jane</td>
-                <td>Doe</td>
-                <td>janedoe</td>
-            </tr>
-            <tr>
-                <th scope="row">3</th>
-                <td>Sam</td>
-                <td>Smith</td>
-                <td>samsmith</td>
-            </tr>
+            @foreach(var item in Model)
+            {
+                <tr>
+                    <td>@item.DocId</td>
+                    <td>@item.DocName</td>
+                    <td>@item.DocCategory</td>
+                    <td>@item.SubjectId</td>
+                    <td>@item.UserId</td>
+                    <td>@item.DocStatus</td>
+                    <td>@item.DocUrl</td>
+                </tr>
+            }
         </tbody>
     </table>
-</div>
-
-
-<div class="container text-center my-5">
-    <a href="#" class="btn btn-primary">Primary Link</a>
-    <a href="#" class="btn btn-secondary">Secondary Link</a>
-    <a href="#" class="btn btn-success">Success Link</a>
-    <a href="#" class="btn btn-danger">Danger Link</a>
-    <a href="#" class="btn btn-warning">Warning Link</a>
-    <a href="#" class="btn btn-info">Info Link</a>
-    <a href="#" class="btn btn-light">Light Link</a>
-    <a href="#" class="btn btn-dark">Dark Link</a>
-</div>
-<div class="container text-center my-5">
-    <button type="button" class="btn btn-primary">Primary Button</button>
-    <button type="button" class="btn btn-secondary">Secondary Button</button>
-    <button type="button" class="btn btn-success">Success Button</button>
-    <button type="button" class="btn btn-danger">Danger Button</button>
-    <button type="button" class="btn btn-warning">Warning Button</button>
-    <button type="button" class="btn btn-info">Info Button</button>
-    <button type="button" class="btn btn-light">Light Button</button>
-    <button type="button" class="btn btn-dark">Dark Button</button>
-</div>
-<div class="container text-center my-5">
-    <button type="button" class="btn btn-primary btn-lg">Large Button</button>
-    <button type="button" class="btn btn-secondary">Default Button</button>
-    <button type="button" class="btn btn-success btn-sm">Small Button</button>
-    <button type="button" class="btn btn-info btn-block">Block Level Button</button>
-</div>
-<div class="container text-center my-5">
-    <button type="button" class="btn btn-primary active">Active Button</button>
-    <button type="button" class="btn btn-secondary" disabled>Disabled Button</button>
-</div>
-<div class="container text-center my-5">
-    <a href="#" class="btn btn-primary active" role="button" aria-pressed="true">Active Link</a>
-    <a href="#" class="btn btn-secondary disabled" role="button" aria-disabled="true" tabindex="-1">Disabled Link</a>
-</div>
-<div class="container text-center my-5">
-    <button type="button" class="btn btn-primary">
-        <i class="fas fa-download"></i> Download
-    </button>
-    <a href="#" class="btn btn-success">
-        <i class="fas fa-check"></i> Confirm
-    </a>
 </div>
