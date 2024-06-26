@@ -17,7 +17,11 @@ public partial class Document
 
     public string? UserId { get; set; }
 
+    public string? UserName { get; set; }
+
     public string? SubjectId { get; set; }
+
+    public string? SubjectName { get; set; }
 
     public virtual Subject? Subject { get; set; }
 
