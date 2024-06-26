@@ -1,3 +1,4 @@
+
 ﻿using DocumentSharing.DAL;
 using DocumentSharing.Models;
 using Microsoft.AspNetCore.Mvc;
@@ -17,6 +18,7 @@ namespace DocumentSharing.Controllers
             List<Models.Document> listDoc = new List<Models.Document>();
             listDoc = JsonConvert.DeserializeObject<List<Models.Document>>(JsonConvert.SerializeObject(dt));
             return View(listDoc);
+
         }
     }
 }

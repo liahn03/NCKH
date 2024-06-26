@@ -23,5 +23,5 @@ public partial class Post
 
     public virtual AppUser? User { get; set; }
 
-    public virtual ICollection<Tag> Tags { get; } = new List<Tag>();
+    public virtual ICollection<Tag> Tags { get; set; } = new List<Tag>();
 }
