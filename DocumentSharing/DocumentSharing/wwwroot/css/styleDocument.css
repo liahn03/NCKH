@@ -1,0 +1,202 @@
+/*** Button Start ***/
+.btn {
+    font-weight: 600;
+    transition: .5s;
+}
+
+.btn:focus, a:focus {
+    box-shadow: none !important;
+}
+
+input[type="search"]:focus {
+    box-shadow: none;
+}
+
+
+.btn-square {
+    width: 32px;
+    height: 32px;
+}
+
+.btn-sm-square {
+    width: 34px;
+    height: 34px;
+}
+
+.btn-md-square {
+    width: 44px;
+    height: 44px;
+}
+
+.btn-lg-square {
+    width: 56px;
+    height: 56px;
+}
+
+.btn-square,
+.btn-sm-square,
+.btn-md-square,
+.btn-lg-square {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+}
+
+.btn.border-secondary {
+    transition: 0.5s;
+}
+
+.btn.border-secondary:hover {
+    background: #569AF5 !important;
+    color: var(--bs-white) !important;
+}
+
+
+/*** Fruits Start ***/
+.document .type-document .type-name-document  {
+    line-height: 40px;
+}
+
+.document .type-document .type-name-document a  {
+    transition: 0.5s;
+}
+
+.document .type-document .type-name-document a:hover  {
+    color: #0054B4;
+}
+
+.document .list-field .name-field  {
+    line-height: 40px;
+}
+
+.document .list-field .name-field a  {
+    transition: 0.5s;
+}
+
+.document .list-field .name-field a:hover  {
+    color: #0054B4;
+}
+
+.document .document-item {
+    height: 100%;
+    transition: 0.5s;
+}
+.document .document-item:hover {
+    box-shadow: 0 0 55px rgba(0, 0, 0, 0.4);
+}
+
+.document .document-item .document-img {
+    overflow: hidden;
+    transition: 0.5s;
+    border-radius: 10px 10px 0 0;
+}
+
+.document .document-item .document-img img {
+    transition: 0.5s;
+}
+
+.document .document-item .document-img img:hover {
+    transform: scale(1.3);
+}
+/*** Fruits End ***/
+
+/*** Single Page Start ***/
+.pagination {
+    display: inline-block;
+}
+  
+.pagination a {
+    color: var(--bs-dark);
+    padding: 10px 16px;
+    text-decoration: none;
+    transition: 0.5s;
+    border: 1px solid #569AF5;
+    margin: 0 4px;
+}
+  
+.pagination a.active {
+    background-color: #21B1FF;
+    color: var(--bs-light);
+    border: 1px solid #21B1FF;
+}
+  
+.pagination a:hover:not(.active) {background-color: #21B1FF}
+
+.nav.nav-tabs .nav-link.active {
+    border-bottom: 2px solid #21B1FF !important;
+}
+/*** Single Page End ***/
+
+
+/*** Footer Start ***/
+.footer .footer-item .btn-link {
+    line-height: 35px;
+    color: rgba(255, 255, 255, .5);
+    transition: 0.5s;
+    
+}
+
+.footer .footer-item .btn-link:hover {
+    color: #2b2666 !important;
+}
+
+.footer .footer-item p.mb-4 {
+    line-height: 35px;
+}
+/*** Footer End ***/
+
+.text-slogan {
+    display: block; 
+    margin-left: 52px;
+}
+
+.slogan {
+    color: #2b2666;
+    font-size: 7px;
+    white-space: nowrap;
+    font-weight: 800;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 10px; 
+    display: inline-block; 
+    margin-top: 0;
+}
+
+/*** Button Search Start ***/
+    .search {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+  }
+  
+  .search input[type="text"] {
+    width: 200px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: calc(100%);
+  }
+
+
+  .search button {
+    background-color: #21B1FF ;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: .9s ease;
+  }
+  
+  .search button:hover {
+    transform: scale(1.1);
+    color: rgb(255, 255, 255);
+    background-color: #569AF5;
+  }
+  /*** Button Search End ***/
