@@ -1,11 +1,13 @@
 {
   "ExpandedNodes": [
     "",
-    "\\DocumentSharing",
-    "\\DocumentSharing\\DocumentSharing",
-    "\\DocumentSharing\\DocumentSharing\\Controllers",
-    "\\NCKH"
+    "\\NCKH",
+    "\\NCKH\\DocumentSharing",
+    "\\NCKH\\DocumentSharing\\DocumentSharing",
+    "\\NCKH\\DocumentSharing\\DocumentSharing\\Views",
+    "\\NCKH\\DocumentSharing\\DocumentSharing\\Views\\Home",
+    "\\NCKH\\DocumentSharing\\DocumentSharing\\Views\\Shared"
   ],
-  "SelectedNode": "\\DocumentSharing\\DocumentSharing\\Controllers\\HomeController.cs",
+  "SelectedNode": "\\NCKH\\DocumentSharing\\DocumentSharing\\Views\\Home\\Insert_Document.cshtml",
   "PreviewInSolutionExplorer": false
 }
