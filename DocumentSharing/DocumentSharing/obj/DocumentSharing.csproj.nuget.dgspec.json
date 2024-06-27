@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Workspace\\NCKH\\DocumentSharing\\DocumentSharing\\DocumentSharing.csproj": {}
+    "D:\\NghienCuuKhoaHoc\\NCKH\\DocumentSharing\\DocumentSharing\\DocumentSharing.csproj": {}
   },
   "projects": {
-    "D:\\Workspace\\NCKH\\DocumentSharing\\DocumentSharing\\DocumentSharing.csproj": {
+    "D:\\NghienCuuKhoaHoc\\NCKH\\DocumentSharing\\DocumentSharing\\DocumentSharing.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Workspace\\NCKH\\DocumentSharing\\DocumentSharing\\DocumentSharing.csproj",
+        "projectUniqueName": "D:\\NghienCuuKhoaHoc\\NCKH\\DocumentSharing\\DocumentSharing\\DocumentSharing.csproj",
         "projectName": "DocumentSharing",
-        "projectPath": "D:\\Workspace\\NCKH\\DocumentSharing\\DocumentSharing\\DocumentSharing.csproj",
-        "packagesPath": "C:\\Users\\MSI PC\\.nuget\\packages\\",
-        "outputPath": "D:\\Workspace\\NCKH\\DocumentSharing\\DocumentSharing\\obj\\",
+        "projectPath": "D:\\NghienCuuKhoaHoc\\NCKH\\DocumentSharing\\DocumentSharing\\DocumentSharing.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "D:\\NghienCuuKhoaHoc\\NCKH\\DocumentSharing\\DocumentSharing\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\MSI PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -85,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
