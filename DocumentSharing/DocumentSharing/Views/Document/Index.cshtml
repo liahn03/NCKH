@@ -1,3 +1,4 @@
+
 ﻿<!DOCTYPE html>
 <html lang="en">
 
@@ -30,7 +31,7 @@
 </head>
 
 <body>
-    <!-- Fruits Shop Start-->
+    <!-- Document Start-->
     <div class="container-fluid document py-2">
         <div class="container py-2">
             <h1 class="mb-4">Tài liệu học tập khoa Công Nghệ Thông Tin</h1>
@@ -368,7 +369,7 @@
             </div>
         </div>
     </div>
-    <!-- Fruits Shop End-->
+    <!-- Document End-->
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5">
         <div class="container py-5">
@@ -435,3 +436,43 @@
 </body>
 
 </html>
+
+﻿@*@using DocumentSharing.Models;
+@model List<Document>;
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1 class="text-primary text-center">Danh sách tài liệu</h1>
+<a href="" class="btn btn-primary">Thêm</a>
+<div class="container my-5">
+    <table class="table table-hover table-responsive">
+        <thead class="thead-dark table-primary">
+            <tr>
+                <th>Mã tài liệu</th>
+                <th>Tên tài liệu</th>
+                <th>Loại tài liệu</th>
+                <th>Môn học</th>
+                <th>Người đăng</th>
+                <th>Trạng thái</th>
+                <th>Link</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var item in Model)
+            {
+                <tr>
+                    <td>@item.DocId</td>
+                    <td>@item.DocName</td>
+                    <td>@item.DocCategory</td>
+                    <td>@item.SubjectId</td>
+                    <td>@item.UserId</td>
+                    <td>@item.DocStatus</td>
+                    <td>@item.DocUrl</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>*@
+
