@@ -1,0 +1,183 @@
+﻿h1 {
+    text-align: center;
+    margin-top: 30px;
+    color: #00a0e9;
+    font-weight: 700;
+}
+
+.form-container {
+    background-color: #fff;
+    border-radius: 40px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+    padding: 30px;
+    margin: 30px auto;
+    max-width: 600px;
+    border: 5px solid #00a0e9;
+}
+
+.form-group {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 7%;
+}
+
+.file-name {
+    margin-left: 2%;
+}
+
+.form-group label {
+    width: 50%;
+    color: #666;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+}
+
+    .form-group input[type="text"]:focus,
+    .form-group input[type="email"]:focus,
+    .form-group textarea:focus,
+    .form-group select:focus {
+        outline: none;
+        border-color: rgb(2, 80, 118);
+    }
+
+.form-group input[type="file"] {
+    display: none;
+}
+
+.file-label {
+    max-width: 30%;
+    appearance: button;
+    box-shadow: rgba(0, 160, 233, 0.4) 0px 2px 4px, rgba(0, 160, 233, 0.3) 0px 7px 13px -3px, rgba(0, 160, 233, 0.2) 0px -3px 0px inset;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: din-round,sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: .8px;
+    line-height: 20px;
+    margin: 0;
+    outline: none;
+    overflow: visible;
+    padding: 8px 16px;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 100%;
+}
+
+    .file-label:after {
+        background-clip: padding-box;
+        background-color: #1CB0F6;
+        border: solid transparent;
+        border-radius: 16px;
+        border-width: 0 0 4px;
+        bottom: -4px;
+        content: "";
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: -1;
+    }
+
+    .file-label:main,
+    .file-label:focus {
+        user-select: auto;
+    }
+
+    .file-label:hover:not(:disabled) {
+        filter: brightness(1.1);
+        -webkit-filter: brightness(1.1);
+    }
+
+    .file-label:disabled {
+        cursor: auto;
+    }
+
+    .file-label:active {
+        border-width: 4px 0 0;
+        background: none;
+    }
+
+.form-group select {
+    padding: 10px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_Them {
+    background-color: #00a0e9;
+    color: white;
+    padding: 10px 160px;
+    margin: auto;
+    border: none;
+    border-radius: 26px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: rgba(0, 160, 233, 0.4) 0px 2px 4px 0px, rgba(0, 160, 233, 0.3) 0px 7px 13px -3px, rgba(0, 160, 233, 0.2) 0px -3px 0px inset;
+}
+
+.btn_Them_Sua {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.btn_Them_Sua, .btn_Them_Sua {
+    margin-top: 3%;
+}
+
+.btn_Xoa, .btn_Sua {
+    background-color: #00a0e9;
+    color: white;
+    padding: 10px 40px;
+    margin: auto;
+    border: none;
+    border-radius: 26px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: rgba(0, 160, 233, 0.4) 0px 2px 4px 0px, rgba(0, 160, 233, 0.3) 0px 7px 13px -3px, rgba(0, 160, 233, 0.2) 0px -3px 0px inset;
+}
+
+    .btn_Xoa:hover, .btn_Sua:hover {
+        background-color: rgb(2, 80, 118);
+    }
+
+
+.btn_Them:hover {
+    background-color: rgb(2, 80, 118);
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 600px) {
+    .form-container {
+        margin: 20px;
+    }
+}
