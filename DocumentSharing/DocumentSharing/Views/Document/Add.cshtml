@@ -1,7 +1,53 @@
-﻿
-@{
+﻿@{
     ViewData["Title"] = "Add";
 }
+<link href="~/css/AddForm.css" rel="stylesheet" />
 
-<h1>Add</h1>
+<h1>THÊM TÀI LIỆU</h1>
+<div class="form-container">
+    <div class="content">
+        <form>
+            <div class="form-group">
+                <label for="file" class="file-label" style="color: white;">Chọn file</label>
+                <input type="file" id="file" name="file" class="file_choose" />
+                <span class="file-name" id="file-name">Vui lòng chọn file...</span>
+            </div>
+            <div class="form-group">
+                <label for="ma-tai-lieu">Mã tài liệu: </label>
+                <input style="background-color: rgb(200, 221, 230)" readonly type="text" id="ma-tai-lieu" name="ma-tai-lieu" />
+            </div>
+            <div class="form-group">
+                <label for="ten-tai-lieu">Tên tài liệu: </label>
+                <input type="text" id="ten-tai-lieu" name="ten-tai-lieu" required />
+            </div>
+            <div class="form-group">
+                <label for="nguoi-bien-soan">Người biên soạn: </label>
+                <input type="text" id="nguoi-bien-soan" name="nguoi-bien-soan" required />
+            </div>
+            <div class="form-group">
+                <label for="loai-tai-lieu">Loại tài liệu: </label>
+                <select id="loai-tai-lieu" name="loai-tai-lieu">
+                    <option value="bài giảng">Bài giảng</option>
+                    <option value="giáo trình">Giáo trình</option>
+                    <option value="tài liệu tham khảo">Tài liệu tham khảo</option>
+                    <option value="đề thi tham khảo">Đề thi tham khảo</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="linh-vuc">Lĩnh vực: </label>
+                <input type="text" id="linh-vuc" name="linh-vuc" required />
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn_Them">Thêm</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script>
+    document.getElementById('file').addEventListener('change', function () {
+        const fileName = this.files[0] ? this.files[0].name : 'Chưa chọn file';
+        document.getElementById('file-name').textContent = fileName;
+    });
+</script>
 
